@@ -1,0 +1,10 @@
+.content__form-container{
+  margin-top: 48px;
+  max-width: 600px;
+}
+
+@media (max-width: 1024px) {
+  .content__form-container {
+    margin-top: 24px;
+  }
+}

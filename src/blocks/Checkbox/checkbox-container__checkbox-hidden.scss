@@ -1,0 +1,19 @@
+.checkbox-container__checkbox-hidden{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox-container__checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+input:checked ~ .checkbox-container__checkmark:after {
+  display: block;
+}
+input:checked ~ .checkbox-container__checkmark {
+  background-color: #1765DE;
+  border: 2px solid #1765DE ;
+}

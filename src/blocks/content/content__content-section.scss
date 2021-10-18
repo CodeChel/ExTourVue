@@ -1,0 +1,30 @@
+.content__content-section {
+  max-width: 50%;
+  margin-top: 64px;
+  margin-left: 100px;
+}
+@media (max-width: 1640px) {
+ .content__content-section {
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+}
+
+@media (max-width: 1440px) {
+  .content__content-section {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 1240px) {
+  .content__content-section {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content__content-section {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}

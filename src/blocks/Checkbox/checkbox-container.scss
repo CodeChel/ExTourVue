@@ -1,0 +1,31 @@
+.checkbox-container{
+  border-radius: 20px;
+  width: 173px;
+  min-height: 70px;
+  border: 1px solid #DBE3EB;
+}
+
+@media (max-width: 768px) {
+  .checkbox-container {
+    margin-bottom: 10px;
+    min-width: 100%;
+    min-height: 60px;
+    display: flex;
+  }
+}
+.icon {
+  width: 90px;
+  display: block;
+  height: 60px;
+  border-bottom-left-radius: 19px;
+  border-top-left-radius: 19px;
+}
+.old-town-icon {
+  background-image: url("old-town-icon.jpg");
+}
+.kazimierz-icon {
+  background-image: url("kazimierz-icon.jpg");
+}
+.ghetto-icon {
+  background-image: url("ghetto-icon.jpg");
+}

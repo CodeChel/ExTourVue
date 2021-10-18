@@ -1,0 +1,29 @@
+.content__map{
+  height: 100%;
+  object-fit: cover;
+  width: 50%;
+}
+.content__map svg{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+g#kazimierz{
+  fill: black;
+}
+@media (max-width: 1440px) {
+  .content__map{
+    width: 40%;
+  }
+}
+@media (max-width: 1024px) {
+  .content__map{
+    width: 100%;
+    margin-top: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .content__map{
+    display: none;
+  }
+}

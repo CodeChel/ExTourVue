@@ -1,0 +1,17 @@
+.checkbox-container-label{
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 26px 20px;
+}
+@media (max-width: 768px) {
+  .checkbox-container-label {
+    margin: 15px;
+    width: 100%;
+  }
+}

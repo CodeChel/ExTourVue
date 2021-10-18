@@ -1,0 +1,14 @@
+.logo-header__image{
+  width: 155px;
+  height: 40px;
+  background: no-repeat url("logo.svg") ;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .logo-header__image {
+    width: 110px;
+    height: 36px;
+    background: no-repeat url("logo-mobile.jpg") ;
+    display: inline-block;
+  }
+}
